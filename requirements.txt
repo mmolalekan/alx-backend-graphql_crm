@@ -1,0 +1,4 @@
+django-crontab
+celery
+django-celery-beat
+redis

@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.sqlite3
+*.db
+*.log
+*.pot
+*.pyc
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+/tmp/
+*.log
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Environment
+.env
+.env.*
+
+# Migrations
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Cron jobs
+crm/cron_jobs/*.log
+
+# Other
+*.bak
+*.swp
